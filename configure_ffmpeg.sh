@@ -29,7 +29,6 @@ $DEBUG_FLAG \
 --enable-version3 \
 --enable-gpl \
 \
---disable-doc \
 --enable-yasm \
 \
 --enable-decoders \
