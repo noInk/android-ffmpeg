@@ -40,4 +40,5 @@ included, edit configure_ffmpeg.sh and add/substract what you want.
 Sources of inspiration
 ----------------------
 https://github.com/guardianproject/android-ffmpeg
+
 https://bitbucket.org/trovao/ffmpeg-android/overview
