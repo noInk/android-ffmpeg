@@ -12,7 +12,7 @@ Setup
 -----
 You will need the Android NDK version r9 or later to use this script.
 
-
+<code>
 git clone https://github.com/xXskitcatXx/android-ffmpeg.git
 
 cd android-ffmpeg
@@ -25,6 +25,7 @@ example
 
 NDK_BASE=$NDKROOT ./configure_make_everything.sh
 
+</code>
 
 That should give you a binary file in data/out/bin/ which is the only file
 you should need.
