@@ -18,7 +18,7 @@ You will need the Android NDK version r9 or later to use this script.
 
 
 
-<pre><code>git clone https://github.com/xXskitcatXx/android-ffmpeg.git
+<pre><code>git clone https://github.com/noInk/android-ffmpeg.git
 cd android-ffmpeg
 git submodule init
 git submodule update
