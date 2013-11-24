@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Android-ffmpeg by xXskitcatXx</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Android-ffmpeg</h1>
+        <h2>a system for building custom ffmpeg binaries for Android</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/xXskitcatXx/android-ffmpeg/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/xXskitcatXx/android-ffmpeg/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/xXskitcatXx/android-ffmpeg" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="android-ffmpeg" class="anchor" href="#android-ffmpeg"><span class="octicon octicon-link"></span></a>android-ffmpeg</h1>
+
+<p>a system for building latest ffmpeg binaries for Android</p>
+
+<p>This is a new android-ffmpeg project.
+The result is a single statically linked 'ffmpeg' binary with x264 support. </p>
+
+<h2>
+<a name="setup" class="anchor" href="#setup"><span class="octicon octicon-link"></span></a>Setup</h2>
+
+<p>You will need the Android NDK version r9 or later to use this script.</p>
+
+<p>git clone <a href="https://github.com/xXskitcatXx/android-ffmpeg.git">https://github.com/xXskitcatXx/android-ffmpeg.git</a></p>
+
+<p>cd android-ffmpeg
+git submodule init
+git submodule update</p>
+
+<p>NDK_BASE=/path/to/android-ndk ./configure_make_everything.sh</p>
+
+<p>example</p>
+
+<p>NDK_BASE=$NDKROOT ./configure_make_everything.sh</p>
+
+<p>That should give you a binary file in data/out/bin/ which is the only file
+you should need.</p>
+
+<h2>
+<a name="customizing" class="anchor" href="#customizing"><span class="octicon octicon-link"></span></a>Customizing</h2>
+
+<p>If you want to change which coders, decoders, muxers, filters, etc that are
+included, edit configure_ffmpeg.sh and add/substract what you want.</p>
+
+<h2>
+<a name="sources-of-inspiration" class="anchor" href="#sources-of-inspiration"><span class="octicon octicon-link"></span></a>Sources of inspiration</h2>
+
+<p><a href="https://github.com/guardianproject/android-ffmpeg">https://github.com/guardianproject/android-ffmpeg</a>
+<a href="https://bitbucket.org/trovao/ffmpeg-android/overview">https://bitbucket.org/trovao/ffmpeg-android/overview</a></p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
