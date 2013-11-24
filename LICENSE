@@ -18,6 +18,3 @@ freetype2: Freetype license, GPLv2
 x264: GPLv2
     x264/COPYING
 
-sox: GPLv 2, LGPL v2.1
-    sox/LICENSE.GPL
-    sox/LICENSE.LGPL
