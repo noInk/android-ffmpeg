@@ -12,20 +12,23 @@ Setup
 -----
 You will need the Android NDK version r9 or later to use this script.
 
-<code>
-git clone https://github.com/xXskitcatXx/android-ffmpeg.git
 
+
+
+
+
+
+<pre><code>git clone https://github.com/xXskitcatXx/android-ffmpeg.git
 cd android-ffmpeg
 git submodule init
 git submodule update
-
 NDK_BASE=/path/to/android-ndk ./configure_make_everything.sh
 
-example
+</code></pre>
 
-NDK_BASE=$NDKROOT ./configure_make_everything.sh
 
-</code>
+
+
 
 That should give you a binary file in data/out/bin/ which is the only file
 you should need.
@@ -40,5 +43,9 @@ included, edit configure_ffmpeg.sh and add/substract what you want.
 
 Sources of inspiration
 ----------------------
+<pre><code>
 https://github.com/guardianproject/android-ffmpeg
 https://bitbucket.org/trovao/ffmpeg-android/overview
+</code></pre>
+
+
