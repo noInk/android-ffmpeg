@@ -63,8 +63,6 @@ $DEBUG_FLAG \
 --enable-protocol=rtp \
 --enable-hwaccels \
 --enable-zlib \
---enable-libx264 \
---enable-zlib \
 --enable-muxer=md5
 
 popd; popd
