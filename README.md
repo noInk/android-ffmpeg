@@ -24,6 +24,10 @@ git submodule init
 git submodule update
 NDK_BASE=/path/to/android-ndk ./configure_make_everything.sh
 
+example
+NDK_BASE=$NDKROOT ./configure_make_everything.sh
+
+
 </code></pre>
 
 
