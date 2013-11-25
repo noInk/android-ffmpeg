@@ -43,16 +43,15 @@ The result is a single statically linked 'ffmpeg' binary with x264 support. </p>
 
 <p>git clone <a href="https://github.com/noInk/android-ffmpeg.git">https://github.com/noInk/android-ffmpeg.git</a></p>
 
-<pre><code><p>cd android-ffmpeg
+<p><pre style="padding:1em;border:1px dashed rgb(47,111,171);background-color:rgb(249,249,249);line-height:1.1em">cd android-ffmpeg
 git submodule init
-git submodule update</p>
+git submodule update</pre></p>
 
-<p>NDK_BASE=/path/to/android-ndk ./configure_make_everything.sh</p>
+<p><pre style="padding:1em;border:1px dashed rgb(47,111,171);background-color:rgb(249,249,249);line-height:1.1em">NDK_BASE=/path/to/android-ndk ./configure_make_everything.sh</p>
 
 <p>example</p>
 
 <p>NDK_BASE=$NDKROOT ./configure_make_everything.sh</p>
-</code></pre>
 
 <p>That should give you a binary file in data/out/bin/ which is the only file
 you should need.</p>
